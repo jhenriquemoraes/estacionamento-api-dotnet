@@ -8,16 +8,16 @@ Projeto de API REST desenvolvida em .NET 8, utilizando autenticação JWT, Entit
 
 ## 📦 Estrutura do Projeto
 
-📁 Dominio
--┣ 📂 DTOs # Objetos de transferência de dados
--┣ 📂 Entidade # Entidades principais do domínio
--┣ 📂 Enuns # Tipos de perfis e enums gerais
--┣ 📂 Interfaces # Interfaces para injeção de dependência
--┣ 📂 ModelViews # Modelos de entrada e saída
--┣ 📂 Servicos # Lógica de negócio implementada
+📁 Dominio  
+┣ 📂 DTOs # Objetos de transferência de dados  
+┣ 📂 Entidade # Entidades principais do domínio  
+┣ 📂 Enuns # Tipos de perfis e enums gerais  
+┣ 📂 Interfaces # Interfaces para injeção de dependência  
+┣ 📂 ModelViews # Modelos de entrada e saída  
+┣ 📂 Servicos # Lógica de negócio implementada  
 
-📁 Infraestrutura
--┣ 📂 Db # DbContext e Migrations
+📁 Infraestrutura  
+┣ 📂 Db # DbContext e Migrations  
 
 📄 Program.cs # Ponto de entrada
 📄 MinimalAPI.csproj # Projeto .NET
