@@ -30,7 +30,6 @@ namespace MinimalAPI.Dominio.Servicos
 
             return administrador;
         }
-
         List<Administrador> IAdministradorServicos.Todos(int? pagina)
         {
             var query = _contexto.Administradores.AsQueryable();

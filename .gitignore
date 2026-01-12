@@ -84,4 +84,53 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Build
+bin/
+obj/
+*.exe
+*.dll
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# appsettings com informações sensíveis
+appsettings.json
+appsettings.Development.json
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Database
+*.mdf
+*.ldf
+
+# Backup
+*.bak
+
+# EF Core Migrations
+Migrations/
+#Infraestrutura/Db/Migrations/
+
+# Rider
+.idea/
+
+# JetBrains Rider
+.idea/
+*.iml
+
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,dotnetcore
